@@ -23,7 +23,7 @@ module.exports = {
     fontFamily: {
       'sora': ['Sora'],
       'poppins':['Poppins'],
-      'tex':['TeXGyreAdventor']
+      'tex':['tex-gyre-adventor']
     },
   },
   plugins: [],

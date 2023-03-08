@@ -5,7 +5,8 @@ import DownloadForOfflineIcon from '@mui/icons-material/DownloadForOffline';
 const Projects = () => {
   return (
     <>
-    <div name="projects" className={style.Container}>
+    <div name="projects" className="w-full h-screen ">
+    {/* p-7 top-[300vh] pt-60  */}
       <marquee behaviour="alternate" className="relative w-[100%]" >
         <div className="flex">
           <div className="not-italic font-semibold text-[40px] leading-[50px] text-center text-[#CC66F0]"> PROJECTS PROJECTS PROJECTS </div>
@@ -16,7 +17,7 @@ const Projects = () => {
         </div>
         </marquee>
 
-        <div>
+        <div className='relative bottom-[120px] ' >
         
         <button className="relative left-[417px] w-[152px] h-[437px] top-[300px] bg-[#CC66F0] shadow-[0px_5px_4px_rgba(255,251,251,0.7)] rounded-[165px]">
         </button>

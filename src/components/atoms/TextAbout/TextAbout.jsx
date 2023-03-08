@@ -9,10 +9,10 @@ const TextAbout = () => {
   return (
     <div className="top-0" >
       <div className="absolute mt-10">
-        <div className="absolute w-[361px] h-[117px] not-italic font-semibold text-[50px] leading-7 text-white left-[102px] font-sora top-5 ">
+        <div className="absolute w-[361px] h-[117px] not-italic font-semibold text-[22px] leading-7 text-white left-[102px] font-sora top-5  ">
           Why Me?
         </div>
-        <div className="absolute w-[361px] h-[117px] not-italic font-semibold text-[30px] leading-7 text-white left-[102px] top-20 font-sora opacity-70 ">
+        <div className="absolute w-[361px] top- h-[117px] not-italic font-semibold text-[30px] leading-7 text-white left-[102px] top-[135px] font-sora ">
           I am
         </div>
         <div className={style.why}>

@@ -7,7 +7,7 @@ import Socials from '@/components/atoms/Socials/Socials'
 const Footer = () => {
   return (
     <>
-        <div name="contact" className={style.Container}>
+        <div name="contact" className="w-full h-[40vh] bg-[#000] top-[400vh] mt-24">
             <div className='relative p-5  h-[97px] w-[500px] left-[129px] not-italic font-sora text-xl leading-[160%] text-white' >
             "Contact me if you want to elevate your brand's design game. And hey, if you're in the mood for a latte, I'm down for that too" ☕
             </div>
@@ -21,11 +21,11 @@ const Footer = () => {
               <Socials/>
             </div>
         </div>
-        <div className={style.Container2} >
-        <div className="relative not-italic font-normal text-base leading-[160%] text-white font-sora top-8 left-20 ">
+        <div className=" flex gap-[69rem] p-5 h-[10vh] bg-[#3E3A3A] top-[472vh] " >
+        <div className="relative left-[120px] not-italic font-normal text-base text-white font-sora">
             Copyright Reserved
         </div>
-        <div className=' relative w-[120px] h-[26px] not-italic font-sora font-normal text-base leading-[160%] text-white flex-none order-1 grow-0  left-[1280px]  ' >
+        <div className=' h-[26px] not-italic font-sora font-normal text-base text-white flex-none order-1 grow-0  left-[1280px]  ' >
               Akansha Singh
         </div>
         </div>

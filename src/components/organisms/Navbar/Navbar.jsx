@@ -19,7 +19,7 @@ const Navbar = () => {
         </div>
         
         <div className="relative font-sora text-white top-7 left-[180px]">
-            Akansha Singh
+            <img src="/assets/pnglogo.png" className='relative w-[140px] bottom-3' alt="" />
         </div>
         
         <div className="relative left-[270px] top-5">

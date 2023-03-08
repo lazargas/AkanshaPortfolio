@@ -8,7 +8,7 @@ import style from "./Intro.module.css"
 const Intro = () => {
   return (
     <>
-    <div className={style.Container} name="intro" >
+    <div className="w-full h-screen  " name="intro" >
         <div className='absolute left-[180px]' >
           <Hey2/>
         </div>
